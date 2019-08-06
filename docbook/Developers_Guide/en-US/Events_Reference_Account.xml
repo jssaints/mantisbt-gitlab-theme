@@ -1,0 +1,68 @@
+<section id="dev.eventref.account">
+	<title>User Account Events</title>
+
+	<section id="dev.eventref.account.pref">
+		<title>Account Preferences</title>
+	
+		<blockquote id="dev.eventref.account.pref.updateform">
+			<title>EVENT_ACCOUNT_PREF_UPDATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form elements on
+					the Account Preferences page.  It is triggered immediately after the last
+					core preference element.
+				</para>
+
+				<para>
+					Any output here should follow the format found in account_prefs_inc.php.  As of 1.3.x this is
+					no longer table elements.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.account.pref.update">
+			<title>EVENT_ACCOUNT_PREF_UPDATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do pre-processing of form elements from the
+					Account Preferences page.  It is triggered immediately before the user
+					preferences are saved to the database.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.user.avatar">
+			<title>EVENT_USER_AVATAR (First)</title>
+
+			<blockquote>
+				<para>
+					This event gets the user's avatar as an instance of the
+					Avatar class.  The first plugin to respond with an avatar
+					wins.  Hence, in case of multiple avatar plugins, make sure
+					to tweak the priorities.  Avatars should return null if they
+					don't have an avatar for the specified user id.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Avatar&gt;: Avatar instance or null.</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+	</section>
+
+</section>
+

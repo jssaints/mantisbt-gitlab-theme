@@ -1,0 +1,81 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Colognian (Ripoarisch)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Purodha
+ */
+
+$s_plugin_graph_title = 'Manits Dijajramme';
+$s_plugin_graph_description = 'Dat offizjäjje Zohsazprojramm zom erinshtöpselle, för Dijajramme ze maache.';
+$s_plugin_MantisGraph_title = 'Manits Dijajramme';
+$s_plugin_MantisGraph_config = 'Enschtällonge';
+$s_plugin_MantisGraph_synthesis_link = 'Zosammejesaz';
+$s_plugin_MantisGraph_status_link = 'Pro Zohshtand';
+$s_plugin_MantisGraph_priority_link = 'Noh de Weeschteschkeit';
+$s_plugin_MantisGraph_severity_link = 'Pro Jeweesch';
+$s_plugin_MantisGraph_category_link = 'Pro Zoot';
+$s_plugin_MantisGraph_resolution_link = 'Pro Löhsong';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Als Zeijschnong pä Zohschtand';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Zosammejefaß als Zeijshnung noh de Weschteschkeit';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Zosammejefaß als Zeijshnung noh em Jeweesch';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Zosammejefaß als Zeijshnung noh de Saachjroppe';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Als Zeijschnong noh de Löhsonge';
+$s_plugin_MantisGraph_by_status_pct = 'noh Shtattuß_Prozänt_Aandeil';
+$s_plugin_MantisGraph_by_priority_pct = 'noh Weeschteschkeitß_Prozänt_Aandeil';
+$s_plugin_MantisGraph_by_severity_pct = 'noh Jeweeschs_Prozänt_Aandeil';
+$s_plugin_MantisGraph_by_category_pct = 'noh Saachjroppe_Prozänt_Aandeil';
+$s_plugin_MantisGraph_by_resolution_pct = 'noh Lösungs_Prozänt_Aandeil';
+$s_plugin_MantisGraph_by_severity_mix = 'noh Jeweesch un Shtattus';
+$s_plugin_MantisGraph_by_priority_mix = 'noh Weeschteschkeit un Shtattus';
+$s_plugin_MantisGraph_by_resolution_mix = 'noh Lösung un Shtattus';
+$s_plugin_MantisGraph_legend_still_open = 'Noch unjedonn';
+$s_plugin_MantisGraph_legend_resolved = 'Jelöhß';
+$s_plugin_MantisGraph_legend_reported = 'Jemeldt';
+$s_plugin_MantisGraph_period_none = 'Kei';
+$s_plugin_MantisGraph_period_this_week = 'Diß Woch';
+$s_plugin_MantisGraph_period_last_week = 'Letz Woch';
+$s_plugin_MantisGraph_period_two_weeks = 'De letz zweij Woche';
+$s_plugin_MantisGraph_period_this_month = 'Diß Mohnd';
+$s_plugin_MantisGraph_period_last_month = 'Letz Mohnd';
+$s_plugin_MantisGraph_period_this_quarter = 'Diß Quattaal';
+$s_plugin_MantisGraph_period_last_quarter = 'Letz Quattaal';
+$s_plugin_MantisGraph_period_year_to_date = 'Johr op Dattum';
+$s_plugin_MantisGraph_period_select = 'Öhntß e Dattum';
+$s_plugin_MantisGraph_period_last_year = 'Letz Johr';
+$s_plugin_MantisGraph_graph_page = 'Verjangeheit un Versione vun dä Ußjabe vun däm Dijajramm';

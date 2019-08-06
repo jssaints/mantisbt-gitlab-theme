@@ -1,0 +1,85 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Catalan (català)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Bernat
+ * @author Dtamajon
+ * @author Fitoschido
+ * @author Jaumeortola
+ * @author Paucabot
+ */
+
+$s_plugin_graph_title = 'Gràfics de Mantis';
+$s_plugin_graph_description = 'Plugin de gràfics oficial.';
+$s_plugin_MantisGraph_title = 'Gràfics de Mantis';
+$s_plugin_MantisGraph_config = 'Configuració';
+$s_plugin_MantisGraph_synthesis_link = 'Síntesi';
+$s_plugin_MantisGraph_status_link = 'Per Estat';
+$s_plugin_MantisGraph_priority_link = 'Per Prioritat';
+$s_plugin_MantisGraph_severity_link = 'Per Severitat';
+$s_plugin_MantisGraph_category_link = 'Per Categoria';
+$s_plugin_MantisGraph_resolution_link = 'Per Resolució';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Gràfics per l\'Estat';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Gràfics per Prioritat';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Gràfics per Gravetat';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Gràfics per Categoria';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Gràfics per Resolució';
+$s_plugin_MantisGraph_by_status_pct = 'percentatge per Estat';
+$s_plugin_MantisGraph_by_priority_pct = 'percentatge per Prioritat';
+$s_plugin_MantisGraph_by_severity_pct = 'percentatge per Gravetat';
+$s_plugin_MantisGraph_by_category_pct = 'percentatge per Categoria';
+$s_plugin_MantisGraph_by_resolution_pct = 'percentatge per Resolució';
+$s_plugin_MantisGraph_by_severity_mix = 'per Gravetat i Estat';
+$s_plugin_MantisGraph_by_priority_mix = 'per Prioritat i Estat';
+$s_plugin_MantisGraph_by_resolution_mix = 'per Resolució i Estat';
+$s_plugin_MantisGraph_legend_still_open = 'Encara obert';
+$s_plugin_MantisGraph_legend_resolved = 'Resolt';
+$s_plugin_MantisGraph_legend_reported = 'Reportat';
+$s_plugin_MantisGraph_period_none = 'Cap';
+$s_plugin_MantisGraph_period_this_week = 'Aquesta setmana';
+$s_plugin_MantisGraph_period_last_week = 'L\'última setmana';
+$s_plugin_MantisGraph_period_two_weeks = 'Les dues últimes setmanes';
+$s_plugin_MantisGraph_period_this_month = 'Aquest mes';
+$s_plugin_MantisGraph_period_last_month = 'L\'últim mes';
+$s_plugin_MantisGraph_period_this_quarter = 'Aquest trimestre';
+$s_plugin_MantisGraph_period_last_quarter = 'L\'últim trimestre';
+$s_plugin_MantisGraph_period_year_to_date = 'Aquest any';
+$s_plugin_MantisGraph_period_select = 'Dates arbitràries';
+$s_plugin_MantisGraph_period_last_year = 'L\'últim any';
+$s_plugin_MantisGraph_graph_page = 'Historial gràfic de la comanda';

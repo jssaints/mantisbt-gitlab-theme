@@ -1,0 +1,537 @@
+-------------------------------------------------------------------------------
+MantisBT - a PHP based bugtracking system
+Copyright (C) 2000-2002  Kenzaburo Ito - kenito@300baud.org
+Copyright (C) 2002  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+-------------------------------------------------------------------------------
+
+*** Please contact project administrators by sending a message to the
+*** mailing list if your name should be on this document!
+
+
+CREDITS
+
+Administrators
+--------------
+
+Victor Boctor (vboctor)
+
+
+Developers
+----------
+
+Damien Regad (dregad)
+Robert Munteanu (rombert)
+Roland Becker (atrol)
+Carlos Proensa (cproensa)
+Rafik Robeal (syncguru)
+
+
+Ex-Administrators
+-----------------
+
+Jeroen Latour (jlatour)
+Julian Fitzell (jfitzell)
+Kenzaburo Ito (prescience, cluebie, presbert)
+
+
+Ex-Developers
+-------------
+
+David Hicks (dhx)
+Daryn Warriner (daryn, dwarrine)
+Gianluca Sforna (giallu)
+Glenn Henshaw (thraxisp)
+John Reese (jreese, nuclear_eclipse)
+Paul Richards (grangeway, paulr, minimoo, prichards)
+Siebrand Mazeland (siebrand)
+
+
+Contributors
+------------
+People who contributed code to MantisBT, listed in reverse order of the
+number of commits authored.
+
+Victor Boctor
+Damien Regad
+Paul Richards
+Kenzaburo Ito
+Glenn Henshaw
+Julian Fitzell
+David Hicks
+John Reese
+Carlos Proensa
+Roland Becker
+Rafik Robeal
+Jeroen Latour
+Siebrand Mazeland
+Robert Munteanu
+Gianluca Sforna
+translatewiki.net
+André Eisenbach
+Daryn Warriner
+bigbadger
+Lincoln Maskey
+Marcello Scata
+Alexey Chumakov
+beerfrick
+Bastian Pfenningschmidt
+Vladimir Shulev
+Kornel Lesinski
+Joel C. Llano
+Adrian Spinei
+zakman
+Martin Fuchs
+jbrugger
+jctrosset
+Kirill Krasnov
+ryandesign
+Bob Le Bricodeur
+rufinus
+jhuggins
+Rasmus Lerdorf
+David Newcomb
+atrol
+yarick123
+robertjf
+jotel
+Luke Lee
+Frank Rodgers
+davidu
+Tamás Gulácsi
+Chris Fitch
+planser
+Johan Guilbaud
+smhanson
+Franck Villaume
+vwegert
+Matej Habrnal
+myplacedk
+Véronique Maginot
+Vincent Sels
+Stefan Pettersson
+Daniel Tschinder
+Martin Schleußer
+Giovanni Giacobbi
+Jim Hanley
+Dominik Blunk
+scoates
+Val Kulkov
+Stéphane Veyret
+Betsy Gamrat
+torija
+cyclespersecond
+Dan Moore
+Alexander Ishmuradov
+Alexander Menk
+Christian Weiske
+EthraZa
+Justin Theberge
+Manilal
+Markus Schneider
+Matt McCutchen
+Romain CABASSOT
+Sebastian Limbach
+Tarik Sedlarevic
+Zipher
+elmarculino
+jeckyhl
+libregeek
+luz.paz
+luzpaz
+mfoXen
+puklos
+Raul Baldner junior
+Marco Ribeiro
+Marco Dings
+Bob Clough
+Ross Nelson
+Ryan Rafe Lee
+SL-Gundam
+Saga Musix
+Sebastian Kayser
+Bill Stidham
+Sergei Kuznetcov
+Sergio Del Franco
+Marcin Kłeczek
+MS-Astra
+LeoZandvliet
+Laszlo Kovacs
+spidgorny
+The Gitter Badger
+Todd Whitesel
+Larry Lewis
+Karl Wiggisser
+José D. Grieco
+Jonas Nockert
+Jeremy Vriens
+tfromm
+Zipher04
+Jadran Josimovic
+Jacob Hoover
+Jacky Alcine
+cheesecracker
+cybd
+cybernet
+Ian MacKenzie
+davethegr8
+Henning Eiben
+dwethell
+elen-ayanyan
+Benjamin Renard
+epenet
+gcompagnon
+greenius
+Heiko Schneider-Lange
+Gulacsi Tamas
+Andreas Stieger
+Florent Daigniere
+Edward Rudd
+Andreas Schopper
+wapznw
+watergad
+mbaranski
+Allan Brazute
+Dmitriy V Kuranov
+naveenbali
+petertc
+Dawit Ayalew
+Alexander Maringer
+rainflood
+rk4n3
+David W. Juntgen
+Daniel N
+Brian Wrightson
+Michael Weibel
+Murray Crane
+Nikolay Raspopov
+Olivier Mengué
+Patrick Massot
+Michael Lorer
+Peter Dave Hello
+Pier-Luc Duchaine
+MatthieuR
+Martin Dennhardt
+Raymond van Asperen
+Adrian Spinei
+
+Other Contributors
+------------------
+
+Alan Seiden (db2 support)
+Alexander Leschinsky (wanderer)
+Alexander Menk
+Alexey Chumakov (achumakov)
+Amandeep Jawa
+André Eisenbach (int2str)
+Andreas Schopper
+Andrew Gregory - xmlhttprequest.js
+Angelo Rossi
+Ariel Arjona (aarjona)
+August Zajonc
+Bastian Pfenningschmidt
+Beorn Harris
+Bernat Pegueroles
+Brett Carter
+Brett England
+Chris Fitch
+Christian Mayer
+Christian Stocker - LiveSearch javascript
+Christoph Giess
+Daniel N
+Daniel Tschinder
+Dawit Ayalew
+davethegr8
+David Ethell
+David Jeske
+Don McPhee
+Dries Samyn
+Duncan Lisset
+Edward Rudd
+Frank Rodgers
+Frank Villaume
+Griff Miller
+Guy Brandt
+Hai Nguyen
+Helmut Franzke
+Ira Chandler (db2 support)
+James Beard
+Jan Derk
+Jaroslaw Lewandowski
+Jason Lunn
+Jason Stewart
+Jean-Francois Travers
+Jon Maltz
+Jonas Nockert
+Kirill Krasnov
+Laurent Petit
+Lee O'Mara
+Leigh Morresi
+Lincoln Maskey (Narcissus)
+Ludwig Ruderstaller
+Marcello Scata (masc)
+Markus Schneider
+Martin Wickmann
+Matt McCutchen
+Matt Otto
+Matthiaus Bauer
+Maxim Berlin
+Niels Andersen
+Ondrej Jombik
+Philip D. Turner
+Pier-Luc Duchaine
+Robert Foster
+Rolf Kleef
+ryandesign
+Sean Phelan
+Sebastien Massoutier
+Scott Hanson
+Scott Roberts
+SL-Gundam
+Steve Davies
+Steve Kwee
+Talal Nehme
+Tarik Sedlarevic (tazza70)
+Thaler Jörg
+Thomas Fromm
+watergad
+Yves Durasnel
+Volker Wegert
+
+
+Translations
+------------
+MantisBT is translated at http://translatewiki.net
+The list of contributors for each translated language can be found in
+the respective language files.
+
+Adam Bienias
+Adam Zivner
+Adrian Spinei
+Alberto Serrano
+Aleksandrit
+Alex Stanev
+Alex Volkov
+Alexander Leschinsky
+Alexandre Ghisoli
+Alexey Chumakov
+Alf-Ivar Holm
+Als-Holder
+Amdei
+Amire80
+AnakngAraw
+Andre Eisenbach
+André Sencioles
+Antanas Vipartas
+Aotake
+Ariel Arjona
+Arkadiusz Hutta
+Atrol
+Attila Vági
+Audun
+Avjoska
+BZC ToOn'S
+Bernardo Hernández
+Bernat Pegueroles
+Bithunter
+Bjankuloski06
+CSÉCSY László
+Campmaster
+Cedric31
+Claudiu Cristea
+Consta
+Crazymadlover
+Crochet.david
+Crt
+DCLXVI
+Daniel Coquette
+Darth Kule
+Davor Orlic
+Dejan Gambin
+Derbeth
+Dragan Matic
+Eduardo.mps
+EivindJ
+Eric Hartmann
+Espen Holje
+EugeneZelenko
+Eyal Zvi
+Fejl
+Felipe Tonioli
+Fernando Machado
+Ferrer
+Fievarsty
+Firesueprtom
+Fohanno
+Francis Labrie
+Frokor
+Fryed-peach
+Fulup
+Gaoxuewei
+Gergő Bácskai
+Giallu
+Giro720
+Glanthor Reviol
+Gretar Einarsson
+Grétar Jón Einarsson
+Gunner Poulsen
+Gunnernett
+Hamilton Abreu
+Hans van Zijst
+Harald Khan
+Heiko Gierer
+Helix84
+Hellekin O. Wolf
+Hermann-Josef Beckers
+Holje
+Hosiryuhosi
+Hubert Kario
+IAlex
+Imre
+Ingvald Skaug
+Istvan Back
+J.I. Kim
+Jan Urbancik
+Jan-Bart de Vreede
+Jani Reinikainen
+Jaroslaw Lewandowski
+Javier Poveda
+Jean-Charles Trosset
+Jean-Frédéric
+Jeferson Oliveira
+Jeroen Latour
+Jirí Kuchta
+Jon Harald Søby
+Jonathan Tsai
+Jorge Andrés Brugger
+Juha
+Juliano Ravasi Ferraz
+Justin Schnell
+Jürgen Kehrel (Dr.)
+Kacper Kruszewski
+Kai-Zheng Cheng
+Karduelis
+Kenzaburo Ito
+Kirill
+Klaasjan Brand
+KlaudiuMihaila
+Klemens Kasemaa
+Kostas Vorilas
+Kropotkine 113
+Kuvaly
+Laaknor
+Langis Gagnon
+Laurent LABAT
+Leinad
+Leiric
+Lele Gaifax
+Locos epraix
+Lubos Magat
+Luca Pescatore
+Ludvig Omholt
+Luis Miguel Cruz Miranda
+Luís Martins
+Malafaya
+Marcello Scatà
+Marcin Ulanecki
+Marco Vassura
+Martin Fuchs
+Matej Rizman
+Matthias Bauer
+Matěj Grabovský
+Maurice A. LeBlanc
+Melancholie
+Meno25
+MichaelFrey
+Mihaela Georgieva
+Mikhail Oleynik (MiTo Team)
+Milan Cizek
+Minh Nguyen
+Najami
+Naudefj
+NetCobra
+Nghtwlkr
+Nike
+Nikola Smolenski
+Oktay Altunergil
+Oleg Gashev
+Omnipaedista
+Orentet
+OsamaK
+Pablo Corral
+Pao-Hsi Huang
+Pavel Loupal
+Peter17
+Petr Švec
+PhiLiP
+Piivaat
+Pikne
+Pill
+Prima klasy4na
+Purodha
+Přemek Brada
+Quentin Delance
+RealEnder
+Revolus
+Riceball LEE
+Roland Meyers
+Rotemliss
+Rudko
+Rui Alexandre Coelho
+Réda Bourebaba
+Samuel Tardieu
+Sanbec
+Sannab
+Seiji
+Seiji Sogabe
+Sergis Kanters
+Siebrand Mazeland
+Silvonen
+Singoo
+Skalman
+Smeira
+Smeuser
+Solde
+Solomon
+Sp5uhe
+Spiritia
+Ssola
+Stefan Meier
+Stefano-c
+Stelistcristi
+Str4nd
+Svetlin Stefanov
+Søren Mortensen
+Tadashi Jokagi
+Takeshi Hachikawa
+Thomas Sjogren
+Thosjo
+Tkh
+Toliño
+Tomasz Czerniejewski
+Tomi Hurenius
+Tvdm
+Umherirrender
+Vilius Šumskas
+Villem Vannas
+Virginija Baliukiene
+Volker Wegert
+Vít Jurásek
+Waldir
+Willux
+Y-M D
+YaronSh
+Yuri Kirghisov
+Yuri Volokhov
+ZaDiak
+aporie@kornet.net
+hardkoder@gmail.com
+kwon37xi@gmail.com
+liaobin@jite.net
+miren.info@gmail.com
+torija@users.sourceforge.net
+various developers
+yesdi@nate.com
+zoomq@itcase.com
+Александр Сигачёв
+محبوب عالم
+青子守歌

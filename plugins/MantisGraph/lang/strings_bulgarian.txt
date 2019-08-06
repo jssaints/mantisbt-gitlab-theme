@@ -1,0 +1,93 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Bulgarian (български)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author DCLXVI
+ * @author Emostoyanov
+ * @author StanProg
+ * @author Svetoslav.dragoev
+ * @author Vodnokon4e
+ * @author АдмиралАнимЕ
+ */
+
+$s_plugin_graph_title = 'MantisBT - Графики';
+$s_plugin_graph_description = 'Официален плъгин за графики.';
+$s_plugin_MantisGraph_title = 'MantisBT - Графики';
+$s_plugin_MantisGraph_config = 'Конфигурация';
+$s_plugin_MantisGraph_synthesis_link = 'Синтез';
+$s_plugin_MantisGraph_status_link = 'По състояние';
+$s_plugin_MantisGraph_priority_link = 'По приоритет';
+$s_plugin_MantisGraph_severity_link = 'По значимост';
+$s_plugin_MantisGraph_category_link = 'По категория';
+$s_plugin_MantisGraph_resolution_link = 'По разрешение';
+$s_plugin_MantisGraph_issue_trends_link = 'Статистика за проблеми';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Диаграма по състояние';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Диаграма по приоритет';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Диаграма по критичност';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Диаграма по категории';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Диаграма по решения';
+$s_plugin_MantisGraph_graph_developer_title = 'По графикони на разработчици';
+$s_plugin_MantisGraph_graph_reporter_title = 'По графикони за докладчици';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Отворени, решени и останали задачи';
+$s_plugin_MantisGraph_by_status_pct = 'По статут (%)';
+$s_plugin_MantisGraph_by_priority_pct = 'По приоритет (%)';
+$s_plugin_MantisGraph_by_severity_pct = 'По значимост (%)';
+$s_plugin_MantisGraph_by_category_pct = 'По категория (%)';
+$s_plugin_MantisGraph_by_resolution_pct = 'По резолюция (%)';
+$s_plugin_MantisGraph_by_severity_mix = 'По значимост и статут';
+$s_plugin_MantisGraph_by_priority_mix = 'По приоритет и статут';
+$s_plugin_MantisGraph_by_resolution_mix = 'По резолюция и статут';
+$s_plugin_MantisGraph_legend_still_open = 'Все още отворен';
+$s_plugin_MantisGraph_legend_resolved = 'Решен';
+$s_plugin_MantisGraph_legend_reported = 'Съобщен';
+$s_plugin_MantisGraph_period_none = 'Няма';
+$s_plugin_MantisGraph_period_this_week = 'Тази седмица';
+$s_plugin_MantisGraph_period_last_week = 'Последната седмица';
+$s_plugin_MantisGraph_period_two_weeks = 'Последните две седмици';
+$s_plugin_MantisGraph_period_this_month = 'Този месец';
+$s_plugin_MantisGraph_period_last_month = 'Последния месец';
+$s_plugin_MantisGraph_period_this_quarter = 'Това тримесечие';
+$s_plugin_MantisGraph_period_last_quarter = 'Последното тримесечие';
+$s_plugin_MantisGraph_period_year_to_date = 'Година до дата';
+$s_plugin_MantisGraph_period_select = 'Произволни дати';
+$s_plugin_MantisGraph_period_last_year = 'Последната година';
+$s_plugin_MantisGraph_graph_page = 'Хронология на графиките';
+$s_plugin_MantisGraph_graph_topdev = 'Най-добри разработчици по решени проблеми';
+$s_plugin_MantisGraph_graph_opendev = 'Разработчици по отворени проблеми';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Най-добри докладчици по решени проблеми';

@@ -1,0 +1,82 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Acamicamacaraca
+ * @author Rancher
+ */
+
+$s_plugin_graph_title = 'Графикони за MantisBT';
+$s_plugin_graph_description = 'Званични додатак за исцртавање графикона.';
+$s_plugin_MantisGraph_title = 'Графикони за MantisBT';
+$s_plugin_MantisGraph_config = 'Подешавање';
+$s_plugin_MantisGraph_synthesis_link = 'Синтеза';
+$s_plugin_MantisGraph_status_link = 'По статусу';
+$s_plugin_MantisGraph_priority_link = 'По важности';
+$s_plugin_MantisGraph_severity_link = 'По озбиљности';
+$s_plugin_MantisGraph_category_link = 'По категорији';
+$s_plugin_MantisGraph_resolution_link = 'По резолуцији';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Синтетички графикони по стању';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Синтетички графикони по важности';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Синтетички графикони по озбиљности';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Синтетички графикони по категорији';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Синтетички графикони по резолуцији';
+$s_plugin_MantisGraph_by_status_pct = 'По стању (%)';
+$s_plugin_MantisGraph_by_priority_pct = 'По важности (%)';
+$s_plugin_MantisGraph_by_severity_pct = 'По озбиљности (%)';
+$s_plugin_MantisGraph_by_category_pct = 'По категорији (%)';
+$s_plugin_MantisGraph_by_resolution_pct = 'По решењу (%)';
+$s_plugin_MantisGraph_by_severity_mix = 'По озбиљности и стању';
+$s_plugin_MantisGraph_by_priority_mix = 'По важности и стању';
+$s_plugin_MantisGraph_by_resolution_mix = 'По решењу и стању';
+$s_plugin_MantisGraph_legend_still_open = 'Још отворено';
+$s_plugin_MantisGraph_legend_resolved = 'Решено';
+$s_plugin_MantisGraph_legend_reported = 'Пријављено';
+$s_plugin_MantisGraph_period_none = 'Нема';
+$s_plugin_MantisGraph_period_this_week = 'Ова недеља';
+$s_plugin_MantisGraph_period_last_week = 'Претходна недеља';
+$s_plugin_MantisGraph_period_two_weeks = 'Претходне две недеље';
+$s_plugin_MantisGraph_period_this_month = 'Овај месец';
+$s_plugin_MantisGraph_period_last_month = 'Претходни месец';
+$s_plugin_MantisGraph_period_this_quarter = 'Ово тромесечје';
+$s_plugin_MantisGraph_period_last_quarter = 'Претходно тромесечје';
+$s_plugin_MantisGraph_period_year_to_date = 'За тачно једну годину';
+$s_plugin_MantisGraph_period_select = 'Произвољни датуми';
+$s_plugin_MantisGraph_period_last_year = 'Претходна година';
+$s_plugin_MantisGraph_graph_page = 'Историја проблема с графиконом';

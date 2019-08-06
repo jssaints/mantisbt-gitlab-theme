@@ -1,0 +1,82 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Occitan (occitan)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Cedric31
+ */
+
+$s_plugin_graph_title = 'Grafics Mantis';
+$s_plugin_graph_description = 'Plugin de grafics oficial.';
+$s_plugin_MantisGraph_title = 'Grafics de Mantis';
+$s_plugin_MantisGraph_config = 'Configuracion';
+$s_plugin_MantisGraph_synthesis_link = 'Sintèsi';
+$s_plugin_MantisGraph_status_link = 'Per estat';
+$s_plugin_MantisGraph_priority_link = 'Per prioritat';
+$s_plugin_MantisGraph_severity_link = 'Per gravetat';
+$s_plugin_MantisGraph_category_link = 'Per categoria';
+$s_plugin_MantisGraph_resolution_link = 'Per resolucion';
+$s_plugin_MantisGraph_issue_trends_link = 'Tendéncias dels problèmas';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Per grafics d\'estat';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Per grafics de prioritat';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Per grafics de gravetat';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Per grafics de categoria';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Per grafics de resolucion';
+$s_plugin_MantisGraph_by_status_pct = 'percentatge per estat';
+$s_plugin_MantisGraph_by_priority_pct = 'percentatge per prioritat';
+$s_plugin_MantisGraph_by_severity_pct = 'percentatge per severitat';
+$s_plugin_MantisGraph_by_category_pct = 'percentatge per categoria';
+$s_plugin_MantisGraph_by_resolution_pct = 'percentatge per resolucion';
+$s_plugin_MantisGraph_by_severity_mix = 'per severitat e estat';
+$s_plugin_MantisGraph_by_priority_mix = 'per prioritat e estat';
+$s_plugin_MantisGraph_by_resolution_mix = 'per resolucion e estatut';
+$s_plugin_MantisGraph_legend_still_open = 'Encara Dobèrt';
+$s_plugin_MantisGraph_legend_resolved = 'Resolgut';
+$s_plugin_MantisGraph_legend_reported = 'Raportat';
+$s_plugin_MantisGraph_period_none = 'Pas cap';
+$s_plugin_MantisGraph_period_this_week = 'Aquesta setmana';
+$s_plugin_MantisGraph_period_last_week = 'La setmana passada';
+$s_plugin_MantisGraph_period_two_weeks = 'Las doas darrièras setmanas';
+$s_plugin_MantisGraph_period_this_month = 'Aqueste mes';
+$s_plugin_MantisGraph_period_last_month = 'Lo mes passat';
+$s_plugin_MantisGraph_period_this_quarter = 'Aqueste trimèstre';
+$s_plugin_MantisGraph_period_last_quarter = 'Lo trimèstre passat';
+$s_plugin_MantisGraph_period_year_to_date = 'Annadièr cumulatiu';
+$s_plugin_MantisGraph_period_select = 'Seleccionar las datas';
+$s_plugin_MantisGraph_period_last_year = 'L\'an passat';
+$s_plugin_MantisGraph_graph_page = 'Afichar lo grafic de l\'istoric';

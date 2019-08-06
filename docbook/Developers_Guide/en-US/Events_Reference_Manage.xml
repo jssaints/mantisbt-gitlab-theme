@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Developers_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<section id="dev.eventref.manage">
+	<title>Management Events</title>
+
+	<blockquote id="dev.eventref.manage.overviewinfo">
+		<title>EVENT_MANAGE_OVERVIEW_INFO (Output)</title>
+
+		<blockquote>
+			<para>
+				This event allows plugins to display special information on the
+				Management Overview page.
+			</para>
+
+			<para>
+				Any output here should be defining appropriate rows and columns for the
+				surrounding &lt;table&gt; elements.
+			</para>
+
+			<itemizedlist>
+				<title>Parameters</title>
+				<listitem><para>&lt;Boolean&gt;: whether user is administrator</para></listitem>
+			</itemizedlist>
+
+		</blockquote>
+	</blockquote>
+
+	<section id="dev.eventref.manage.project">
+		<title>Projects and Versions</title>
+	
+		<blockquote id="dev.eventref.manage.project.view">
+			<title>EVENT_MANAGE_PROJECT_PAGE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display information on
+					the View Project page.  It is triggered immediately before the project
+					access blocks.
+				</para>
+
+				<para>
+					Any output here should be contained within its own &lt;table&gt; element.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Project ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.project.createform">
+			<title>EVENT_MANAGE_PROJECT_CREATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form elements on
+					the Create Project page.  It is triggered immediately before the submit
+					button.
+				</para>
+
+				<para>
+					Any output here should follow the format found in manage_proj_create_page.php.  As of 1.3.x this is
+					no longer table elements.
+				</para>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.project.create">
+			<title>EVENT_MANAGE_PROJECT_CREATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of newly-created projects
+					and form elements from the Create Project page.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Project ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.project.updateform">
+			<title>EVENT_MANAGE_PROJECT_UPDATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form elements in
+					the Edit Project form on the View Project page.  It is triggered
+					immediately before the submit button.
+				</para>
+
+				<para>
+					Any output here should follow the format found in manage_proj_edit_page.php.  As of 1.3.x this is
+					no longer table elements.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Project ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.project.update">
+			<title>EVENT_MANAGE_PROJECT_UPDATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of modified projects
+					and form elements from the Edit Project form.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Project ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.project.delete">
+			<title>EVENT_MANAGE_PROJECT_DELETE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do pre-processing of project
+					deletion. This event is triggered prior to the project
+					removal from the database.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Project ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.version.create">
+			<title>EVENT_MANAGE_VERSION_CREATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of newly-created
+					project versions from the View Project page, or versions copied from
+					other projects.  This event is triggered for each version created.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Version ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.version.updateform">
+			<title>EVENT_MANAGE_VERSION_UPDATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form elements on
+					the Update Version page.  It is triggered immediately before the submit
+					button.
+				</para>
+
+				<para>
+					Any output here should follow the format found in manage_proj_ver_edit_page.php.  As of 1.3.x this is
+					no longer table elements.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Version ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.version.update">
+			<title>EVENT_MANAGE_VERSION_UPDATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of modified versions
+					and form elements from the Edit Version page.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Version ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.version.delete">
+			<title>EVENT_MANAGE_VERSION_DELETE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do pre-processing of version
+					deletion. This event is triggered prior to the version
+					removal from the database.
+				</para>
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: Version ID</para></listitem>
+					<listitem><para>&lt;String&gt;: Replacement version to set on issues
+					that are currently using the version that is about to be deleted.</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.createform">
+			<title>EVENT_MANAGE_USER_CREATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form elements on
+					the Create User page.  It is triggered immediately before the submit
+					button.
+				</para>
+
+				<para>
+					Any output here should follow the format found in manage_user_create_page.php.
+				</para>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.create">
+			<title>EVENT_MANAGE_USER_CREATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of newly-created
+					users.  This event is triggered for each user created.  The
+					Manage Users create form is one possible case for triggering
+					such events, but there can be other ways users can be created.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.updateform">
+			<title>EVENT_MANAGE_USER_UPDATE_FORM (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display form
+					elements in the Manage User page.  It is triggered immediately
+					before the submit button.
+				</para>
+
+				<para>
+					Any output here should follow the format found in
+					manage_user_edit_page.php.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.update">
+			<title>EVENT_MANAGE_USER_UPDATE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do post-processing of modified
+					users.  This may be triggered by the Manage User page or some
+					other path.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.delete">
+			<title>EVENT_MANAGE_USER_DELETE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do pre-processing of user
+					deletion.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+		<blockquote id="dev.eventref.manage.user.view">
+			<title>EVENT_MANAGE_USER_PAGE (Execute)</title>
+
+			<blockquote>
+				<para>
+					This event allows plugins to do processing or display information on
+					the View User page.  It is triggered immediately after the reset password
+					segment.
+				</para>
+
+				<para>
+					Any output here should be contained within its own container.
+				</para>
+
+				<itemizedlist>
+					<title>Parameters</title>
+					<listitem><para>&lt;Integer&gt;: User ID</para></listitem>
+				</itemizedlist>
+			</blockquote>
+		</blockquote>
+
+	</section>
+
+</section>
+

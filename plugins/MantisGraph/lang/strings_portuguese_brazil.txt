@@ -1,0 +1,94 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Brazilian Portuguese (português do Brasil)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Eduardo Addad de Oliveira
+ * @author Felipe L. Ewald
+ * @author Giro720
+ * @author Joao Xavier
+ * @author Luckas
+ * @author Luckas Blade
+ * @author Maxan
+ */
+
+$s_plugin_graph_title = 'Gráficos Mantis';
+$s_plugin_graph_description = 'Plugin oficial de gráficos.';
+$s_plugin_MantisGraph_title = 'Gráficos Mantis';
+$s_plugin_MantisGraph_config = 'Configuração';
+$s_plugin_MantisGraph_synthesis_link = 'Síntese';
+$s_plugin_MantisGraph_status_link = 'Por status';
+$s_plugin_MantisGraph_priority_link = 'Por prioridade';
+$s_plugin_MantisGraph_severity_link = 'Por Gravidade';
+$s_plugin_MantisGraph_category_link = 'Por categoria';
+$s_plugin_MantisGraph_resolution_link = 'Por resolução';
+$s_plugin_MantisGraph_issue_trends_link = 'Tendências entre as Tarefas';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Gráfico de síntese por status';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Gráfico de síntese por prioridade';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Gráfico de síntese por gravidade';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Gráfico de síntese por categoria';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Gráfico de síntese por resolução';
+$s_plugin_MantisGraph_graph_developer_title = 'Por desenvolvedores Gráficos';
+$s_plugin_MantisGraph_graph_reporter_title = 'Por Reporter Gráficos';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Questões abertas, resolvidas e restantes';
+$s_plugin_MantisGraph_by_status_pct = 'porcentagem por status';
+$s_plugin_MantisGraph_by_priority_pct = 'porcentagem por prioridade';
+$s_plugin_MantisGraph_by_severity_pct = 'porcentagem por gravidade';
+$s_plugin_MantisGraph_by_category_pct = 'porcentagem por categoria';
+$s_plugin_MantisGraph_by_resolution_pct = 'porcentagem por resolução';
+$s_plugin_MantisGraph_by_severity_mix = 'por gravidade e status';
+$s_plugin_MantisGraph_by_priority_mix = 'por prioridade e status';
+$s_plugin_MantisGraph_by_resolution_mix = 'por resolução e status';
+$s_plugin_MantisGraph_legend_still_open = 'Ainda aberto';
+$s_plugin_MantisGraph_legend_resolved = 'Resolvido';
+$s_plugin_MantisGraph_legend_reported = 'Reportado';
+$s_plugin_MantisGraph_period_none = 'Nenhum';
+$s_plugin_MantisGraph_period_this_week = 'Esta Semana';
+$s_plugin_MantisGraph_period_last_week = 'Semana Passada';
+$s_plugin_MantisGraph_period_two_weeks = 'Últimas Duas Semanas';
+$s_plugin_MantisGraph_period_this_month = 'Este Mês';
+$s_plugin_MantisGraph_period_last_month = 'Mês Passado';
+$s_plugin_MantisGraph_period_this_quarter = 'Esta Quinzena';
+$s_plugin_MantisGraph_period_last_quarter = 'Última Quinzena';
+$s_plugin_MantisGraph_period_year_to_date = 'Este ano';
+$s_plugin_MantisGraph_period_select = 'Especificar período';
+$s_plugin_MantisGraph_period_last_year = 'Ano Passado';
+$s_plugin_MantisGraph_graph_page = 'Gráfico do histórico da tarefa';
+$s_plugin_MantisGraph_graph_topdev = 'Principais desenvolvedores por problemas corrigidos';
+$s_plugin_MantisGraph_graph_opendev = 'Desenvolvedores por questões abertas';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Principais Repórteres por Problemas Corrigidos';

@@ -1,0 +1,90 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Danish (dansk)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Christian List
+ * @author Joedalton
+ * @author Tjernobyl
+ */
+
+$s_plugin_graph_title = 'Mantis grafer';
+$s_plugin_graph_description = 'Officiel graf plugin.';
+$s_plugin_MantisGraph_title = 'Mantis grafer';
+$s_plugin_MantisGraph_config = 'Konfiguration';
+$s_plugin_MantisGraph_synthesis_link = 'Syntese';
+$s_plugin_MantisGraph_status_link = 'Efter tilstand';
+$s_plugin_MantisGraph_priority_link = 'Efter prioritet';
+$s_plugin_MantisGraph_severity_link = 'Efter alvorlighedsgrad';
+$s_plugin_MantisGraph_category_link = 'Efter kategori';
+$s_plugin_MantisGraph_resolution_link = 'Efter løsningsstatus';
+$s_plugin_MantisGraph_issue_trends_link = 'Trend for problemstillinger';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Efter status-grafer';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Efter prioritet-grafer';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Efter alvor-grafer';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Efter kategori-grafer';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Efter løsning-grafer';
+$s_plugin_MantisGraph_graph_developer_title = 'Efter udvikler-grafer';
+$s_plugin_MantisGraph_graph_reporter_title = 'Efter rapportør-grafer';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Fejlrapporter åbnet, løst og tilbageværende';
+$s_plugin_MantisGraph_by_status_pct = 'efter status i procent';
+$s_plugin_MantisGraph_by_priority_pct = 'efter prioritet i procent';
+$s_plugin_MantisGraph_by_severity_pct = 'efter alvorlighed i procent';
+$s_plugin_MantisGraph_by_category_pct = 'efter kategori i procent';
+$s_plugin_MantisGraph_by_resolution_pct = 'efter løsning i procent';
+$s_plugin_MantisGraph_by_severity_mix = 'efter alvorlighed og status';
+$s_plugin_MantisGraph_by_priority_mix = 'efter prioritet og status';
+$s_plugin_MantisGraph_by_resolution_mix = 'efter løsning og status';
+$s_plugin_MantisGraph_legend_still_open = 'Stadig åben';
+$s_plugin_MantisGraph_legend_resolved = 'Løst';
+$s_plugin_MantisGraph_legend_reported = 'Rapporteret';
+$s_plugin_MantisGraph_period_none = 'Ingen';
+$s_plugin_MantisGraph_period_this_week = 'Denne uge';
+$s_plugin_MantisGraph_period_last_week = 'Sidste uge';
+$s_plugin_MantisGraph_period_two_weeks = 'Sidste to uger';
+$s_plugin_MantisGraph_period_this_month = 'Denne måned';
+$s_plugin_MantisGraph_period_last_month = 'Sidste måned';
+$s_plugin_MantisGraph_period_this_quarter = 'Dette kvartal';
+$s_plugin_MantisGraph_period_last_quarter = 'Sidste kvartal';
+$s_plugin_MantisGraph_period_year_to_date = 'År til dato';
+$s_plugin_MantisGraph_period_select = 'Vilkårlige datoer';
+$s_plugin_MantisGraph_period_last_year = 'Sidste år';
+$s_plugin_MantisGraph_graph_page = 'Vis rapporthistorik som graf';
+$s_plugin_MantisGraph_graph_topdev = 'Topudviklere efter løste fejlrapporter';
+$s_plugin_MantisGraph_graph_opendev = 'Udviklere efter åbne fejlrapporter';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Toprapportører efter løste fejlrapporter';

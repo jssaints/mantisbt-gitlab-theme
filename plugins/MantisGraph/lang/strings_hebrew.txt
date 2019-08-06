@@ -1,0 +1,86 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Hebrew (עברית)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Amire80
+ * @author Guycn2
+ */
+
+$s_plugin_graph_title = 'מנטיס תרשימים';
+$s_plugin_graph_description = 'תוסף תרשימים רשמי.';
+$s_plugin_MantisGraph_title = 'מנטיס תרשימים';
+$s_plugin_MantisGraph_config = 'הגדרות';
+$s_plugin_MantisGraph_synthesis_link = 'סינתזה';
+$s_plugin_MantisGraph_status_link = 'לפי מצב';
+$s_plugin_MantisGraph_priority_link = 'לפי עדיפות';
+$s_plugin_MantisGraph_severity_link = 'לפי חומרה';
+$s_plugin_MantisGraph_category_link = 'לפי קטגוריה';
+$s_plugin_MantisGraph_resolution_link = 'לפי פתרון';
+$s_plugin_MantisGraph_issue_trends_link = 'מגמות של בעיות';
+$s_plugin_MantisGraph_graph_imp_status_title = 'לפי מצבים גרפיים';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'לפי עדיפויות גרפיות';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'לפי חומרה גרפית';
+$s_plugin_MantisGraph_graph_imp_category_title = 'תרשימי קטגוריות גרפיות';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'לפי פתרונות גרפיים';
+$s_plugin_MantisGraph_graph_developer_title = 'לפי מפתחים גרפיים';
+$s_plugin_MantisGraph_graph_reporter_title = 'לפי דו"ח גרפי';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'בעיות פתוחות, פתורות ונותרות';
+$s_plugin_MantisGraph_by_status_pct = 'לפי אחוזי מצב';
+$s_plugin_MantisGraph_by_priority_pct = 'לפי אחוז עדיפות';
+$s_plugin_MantisGraph_by_severity_pct = 'לפי אחוז חומרה';
+$s_plugin_MantisGraph_by_category_pct = 'לפי אחוז קטגוריה';
+$s_plugin_MantisGraph_by_resolution_pct = 'לפי אחוז פתרון';
+$s_plugin_MantisGraph_by_severity_mix = 'לפי חומרה ומצב';
+$s_plugin_MantisGraph_by_priority_mix = 'לפי עדיפות ומצב';
+$s_plugin_MantisGraph_by_resolution_mix = 'לפי פתרון ומצב';
+$s_plugin_MantisGraph_legend_still_open = 'עדיין פתוח';
+$s_plugin_MantisGraph_legend_resolved = 'פתור';
+$s_plugin_MantisGraph_legend_reported = 'מדוּוח';
+$s_plugin_MantisGraph_period_none = 'כלום';
+$s_plugin_MantisGraph_period_this_week = 'השבוע';
+$s_plugin_MantisGraph_period_last_week = 'השבוע האחרון';
+$s_plugin_MantisGraph_period_two_weeks = 'השבועיים האחרונים';
+$s_plugin_MantisGraph_period_this_month = 'החודש';
+$s_plugin_MantisGraph_period_last_month = 'החודש האחרון';
+$s_plugin_MantisGraph_period_this_quarter = 'הרבעון הנוכחי';
+$s_plugin_MantisGraph_period_last_quarter = 'הרבעון הקודם';
+$s_plugin_MantisGraph_period_year_to_date = 'השנה האחרונה';
+$s_plugin_MantisGraph_period_select = 'בחירת תאריכים';
+$s_plugin_MantisGraph_period_last_year = 'השנה הקודמת';
+$s_plugin_MantisGraph_graph_page = 'הצג תרשים היסטוריית באג';

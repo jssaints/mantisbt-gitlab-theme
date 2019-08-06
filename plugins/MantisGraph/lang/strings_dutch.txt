@@ -1,0 +1,90 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Dutch (Nederlands)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Mraedis
+ * @author Rienkwind
+ * @author Siebrand
+ */
+
+$s_plugin_graph_title = 'Mantis grafieken';
+$s_plugin_graph_description = 'Officiële plugin voor grafieken.';
+$s_plugin_MantisGraph_title = 'Mantis grafieken';
+$s_plugin_MantisGraph_config = 'Instellingen';
+$s_plugin_MantisGraph_synthesis_link = 'Synthese';
+$s_plugin_MantisGraph_status_link = 'Op status';
+$s_plugin_MantisGraph_priority_link = 'Op prioriteit';
+$s_plugin_MantisGraph_severity_link = 'Op impact';
+$s_plugin_MantisGraph_category_link = 'Op categorie';
+$s_plugin_MantisGraph_resolution_link = 'Op oplossing';
+$s_plugin_MantisGraph_issue_trends_link = 'Meldingentrends';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Grafieken op status';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Grafieken op prioriteit';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Grafieken op impact';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Grafieken op categorie';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Grafieken op oplossing';
+$s_plugin_MantisGraph_graph_developer_title = 'Grafieken op ontwikkelaar';
+$s_plugin_MantisGraph_graph_reporter_title = 'Grafieken op melder';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Meldingen geopend, opgelost en open';
+$s_plugin_MantisGraph_by_status_pct = 'status percentage';
+$s_plugin_MantisGraph_by_priority_pct = 'prioriteit percentage';
+$s_plugin_MantisGraph_by_severity_pct = 'impact percentage';
+$s_plugin_MantisGraph_by_category_pct = 'per categorie percentage';
+$s_plugin_MantisGraph_by_resolution_pct = 'per oplossing percentage';
+$s_plugin_MantisGraph_by_severity_mix = 'per impact en status';
+$s_plugin_MantisGraph_by_priority_mix = 'per prioriteit en status';
+$s_plugin_MantisGraph_by_resolution_mix = 'per oplossing en status';
+$s_plugin_MantisGraph_legend_still_open = 'Openstaand';
+$s_plugin_MantisGraph_legend_resolved = 'Opgelost';
+$s_plugin_MantisGraph_legend_reported = 'Aangemeld';
+$s_plugin_MantisGraph_period_none = 'Geen';
+$s_plugin_MantisGraph_period_this_week = 'Deze week';
+$s_plugin_MantisGraph_period_last_week = 'Afgelopen week';
+$s_plugin_MantisGraph_period_two_weeks = 'Afgelopen twee weken';
+$s_plugin_MantisGraph_period_this_month = 'Deze maand';
+$s_plugin_MantisGraph_period_last_month = 'Afgelopen maand';
+$s_plugin_MantisGraph_period_this_quarter = 'Dit kwartaal';
+$s_plugin_MantisGraph_period_last_quarter = 'Afgelopen kwartaal';
+$s_plugin_MantisGraph_period_year_to_date = 'Dit jaar';
+$s_plugin_MantisGraph_period_select = 'Op te geven datums';
+$s_plugin_MantisGraph_period_last_year = 'Afgelopen jaar';
+$s_plugin_MantisGraph_graph_page = 'Meldingsgeschiedenis als grafiek';
+$s_plugin_MantisGraph_graph_topdev = 'Top ontwikkelaars van opgeloste meldingen';
+$s_plugin_MantisGraph_graph_opendev = 'Ontwikkelaars van open meldingen';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Top Ontwikkelaars van Opgeloste Meldingen';

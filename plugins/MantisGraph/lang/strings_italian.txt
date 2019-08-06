@@ -1,0 +1,92 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Italian (italiano)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Beta16
+ * @author Massimo itaca
+ * @author Nemo bis
+ * @author Ontsed
+ * @author Selven
+ */
+
+$s_plugin_graph_title = 'Grafici Mantis';
+$s_plugin_graph_description = 'Plugin ufficiale Grafico';
+$s_plugin_MantisGraph_title = 'Grafici Mantis';
+$s_plugin_MantisGraph_config = 'Configurazione';
+$s_plugin_MantisGraph_synthesis_link = 'Sintesi';
+$s_plugin_MantisGraph_status_link = 'Per stato';
+$s_plugin_MantisGraph_priority_link = 'Per priorità';
+$s_plugin_MantisGraph_severity_link = 'Per gravità';
+$s_plugin_MantisGraph_category_link = 'Per categoria';
+$s_plugin_MantisGraph_resolution_link = 'Per risoluzione';
+$s_plugin_MantisGraph_issue_trends_link = 'Tendenza anomalie';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Per grafici di stato';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Per grafici di priorità';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Per grafici di gravità';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Per grafici di categoria';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Per grafici di risoluzione';
+$s_plugin_MantisGraph_graph_developer_title = 'Grafico per sviluppatore';
+$s_plugin_MantisGraph_graph_reporter_title = 'Grafico per segnalatore';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Anomalie aperte, risolte e restanti';
+$s_plugin_MantisGraph_by_status_pct = 'Per stato (%)';
+$s_plugin_MantisGraph_by_priority_pct = 'Per priorità (%)';
+$s_plugin_MantisGraph_by_severity_pct = 'Per gravità (%)';
+$s_plugin_MantisGraph_by_category_pct = 'Per categoria (%)';
+$s_plugin_MantisGraph_by_resolution_pct = 'Per motivazione (%)';
+$s_plugin_MantisGraph_by_severity_mix = 'Per gravità e stato';
+$s_plugin_MantisGraph_by_priority_mix = 'Per priorità e stato';
+$s_plugin_MantisGraph_by_resolution_mix = 'Per motivazione e stato';
+$s_plugin_MantisGraph_legend_still_open = 'Ancora aperte';
+$s_plugin_MantisGraph_legend_resolved = 'Risolte';
+$s_plugin_MantisGraph_legend_reported = 'Segnalate';
+$s_plugin_MantisGraph_period_none = 'Nessuno';
+$s_plugin_MantisGraph_period_this_week = 'Questa settimana';
+$s_plugin_MantisGraph_period_last_week = 'Settimana scorsa';
+$s_plugin_MantisGraph_period_two_weeks = 'Ultime due settimane';
+$s_plugin_MantisGraph_period_this_month = 'Questo mese';
+$s_plugin_MantisGraph_period_last_month = 'Mese scorso';
+$s_plugin_MantisGraph_period_this_quarter = 'Questo trimestre';
+$s_plugin_MantisGraph_period_last_quarter = 'Ultimo trimestre';
+$s_plugin_MantisGraph_period_year_to_date = 'Quest\'anno';
+$s_plugin_MantisGraph_period_select = 'Date arbitrarie';
+$s_plugin_MantisGraph_period_last_year = 'Anno scorso';
+$s_plugin_MantisGraph_graph_page = 'Grafico della storia delle anomalie';
+$s_plugin_MantisGraph_graph_topdev = 'Migliori sviluppatori per problemi risolti';
+$s_plugin_MantisGraph_graph_opendev = 'Sviluppatori per problemi aperti';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Migliori segnalatori per problemi risolti';

@@ -1,0 +1,91 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Arabic (العربية)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author DRIHEM
+ * @author Meno25
+ * @author OsamaK
+ * @author ديفيد
+ */
+
+$s_plugin_graph_title = 'رسومات مانتيس';
+$s_plugin_graph_description = 'الملحق الرسومي الرسمي.';
+$s_plugin_MantisGraph_title = 'رسومات مانتيس';
+$s_plugin_MantisGraph_config = 'ضبط';
+$s_plugin_MantisGraph_synthesis_link = 'صناعي';
+$s_plugin_MantisGraph_status_link = 'حسب الحالة';
+$s_plugin_MantisGraph_priority_link = 'حسب الأهمية';
+$s_plugin_MantisGraph_severity_link = 'حسب الخطورة';
+$s_plugin_MantisGraph_category_link = 'حسب التصنيف';
+$s_plugin_MantisGraph_resolution_link = 'حسب القرار';
+$s_plugin_MantisGraph_issue_trends_link = 'اتجاهات القضية';
+$s_plugin_MantisGraph_graph_imp_status_title = 'حسب الرسوم البيانية للحالة';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'حسب الرسوم البيانية للأولوية';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'حسب الرسوم البيانية للخطورة';
+$s_plugin_MantisGraph_graph_imp_category_title = 'حسب الرسوم البيانية للفئة';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'حسب الرسوم البيانية للدقة';
+$s_plugin_MantisGraph_graph_developer_title = 'حسب الرسوم البيانية للمطور';
+$s_plugin_MantisGraph_graph_reporter_title = 'حسب الرسوم البيانية للمبلغ';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'القضايا المفتوحة والمحلولة والمتبقية';
+$s_plugin_MantisGraph_by_status_pct = 'حسب النسبة المئوية للحالة';
+$s_plugin_MantisGraph_by_priority_pct = 'حسب النسبة المئوية للأولوية';
+$s_plugin_MantisGraph_by_severity_pct = 'حسب النسبة المئوية للشدة';
+$s_plugin_MantisGraph_by_category_pct = 'حسب النسبة المئوية للتصنيف';
+$s_plugin_MantisGraph_by_resolution_pct = 'حسب النسبة المئوية للحل';
+$s_plugin_MantisGraph_by_severity_mix = 'حسب الشدة والحالة';
+$s_plugin_MantisGraph_by_priority_mix = 'حسب الأولوية والحالة';
+$s_plugin_MantisGraph_by_resolution_mix = 'حسب الحل والحالة';
+$s_plugin_MantisGraph_legend_still_open = 'مازالت مفتوحة';
+$s_plugin_MantisGraph_legend_resolved = 'تم حلها';
+$s_plugin_MantisGraph_legend_reported = 'تم الإبلاغ';
+$s_plugin_MantisGraph_period_none = 'لا شيء';
+$s_plugin_MantisGraph_period_this_week = 'هذا الأسبوع';
+$s_plugin_MantisGraph_period_last_week = 'آخر أسبوع';
+$s_plugin_MantisGraph_period_two_weeks = 'آخر أسبوعين';
+$s_plugin_MantisGraph_period_this_month = 'هذا الشهر';
+$s_plugin_MantisGraph_period_last_month = 'آخر شهر';
+$s_plugin_MantisGraph_period_this_quarter = 'هذا الربع';
+$s_plugin_MantisGraph_period_last_quarter = 'آخر ربع';
+$s_plugin_MantisGraph_period_year_to_date = 'السنة لتاريخه';
+$s_plugin_MantisGraph_period_select = 'تواريخ افتراضية';
+$s_plugin_MantisGraph_period_last_year = 'آخر سنة';
+$s_plugin_MantisGraph_graph_page = 'تاريخ رسومات المشكلة';
+$s_plugin_MantisGraph_graph_topdev = 'كبار المطورين حسب القضايا المحلولة';
+$s_plugin_MantisGraph_graph_opendev = 'المطورون حسب القضايا المفتوحة';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'كبار المبلغين حسب القضايا المحلولة';

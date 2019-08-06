@@ -1,0 +1,90 @@
+<?php
+# MantisBT - A PHP based bugtracking system
+
+# MantisBT is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# (at your option) any later version.
+#
+# MantisBT is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Language File - English (English)
+ *
+ * **********************************************************************
+ * ** This file is generated from translations stored in translatewiki **
+ * ** Information on Copyright/License for translatewiki translations  **
+ * ** is available at http://translatewiki.net/wiki/Project:About      **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ *
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ *
+ * @ingroup Language
+ * @file
+ * @copyright Copyright 2002  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ * @link http://www.mantisbt.org
+ *
+ * @author Damien Regad
+ * @author David Hicks
+ * @author Paul Richards
+ * @author Siebrand Mazeland
+ */
+
+$s_plugin_graph_title = 'Mantis Graphs';
+$s_plugin_graph_description = 'Official graph plugin.';
+$s_plugin_MantisGraph_title = 'Mantis Graphs';
+$s_plugin_MantisGraph_config = 'Configuration';
+$s_plugin_MantisGraph_synthesis_link = 'Synthesis';
+$s_plugin_MantisGraph_status_link = 'By Status';
+$s_plugin_MantisGraph_priority_link = 'By Priority';
+$s_plugin_MantisGraph_severity_link = 'By Severity';
+$s_plugin_MantisGraph_category_link = 'By Category';
+$s_plugin_MantisGraph_resolution_link = 'By Resolution';
+$s_plugin_MantisGraph_issue_trends_link = 'Issue Trends';
+$s_plugin_MantisGraph_graph_imp_status_title = 'By Status Graphs';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'By Priority Graphs';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'By Severity Graphs';
+$s_plugin_MantisGraph_graph_imp_category_title = 'By Category Graphs';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'By Resolution Graphs';
+$s_plugin_MantisGraph_graph_developer_title = 'By Developer Graphs';
+$s_plugin_MantisGraph_graph_reporter_title = 'By Reporter Graphs';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Issues Opened, Resolved, and Remaining';
+$s_plugin_MantisGraph_by_status_pct = 'By status percentage';
+$s_plugin_MantisGraph_by_priority_pct = 'By priority percentage';
+$s_plugin_MantisGraph_by_severity_pct = 'By severity percentage';
+$s_plugin_MantisGraph_by_category_pct = 'By category percentage';
+$s_plugin_MantisGraph_by_resolution_pct = 'By resolution percentage';
+$s_plugin_MantisGraph_by_severity_mix = 'By severity and status';
+$s_plugin_MantisGraph_by_priority_mix = 'By priority and status';
+$s_plugin_MantisGraph_by_resolution_mix = 'By resolution and status';
+$s_plugin_MantisGraph_legend_still_open = 'Still Open';
+$s_plugin_MantisGraph_legend_resolved = 'Resolved';
+$s_plugin_MantisGraph_legend_reported = 'Reported';
+$s_plugin_MantisGraph_period_none = 'None';
+$s_plugin_MantisGraph_period_this_week = 'This Week';
+$s_plugin_MantisGraph_period_last_week = 'Last Week';
+$s_plugin_MantisGraph_period_two_weeks = 'Last Two Weeks';
+$s_plugin_MantisGraph_period_this_month = 'This Month';
+$s_plugin_MantisGraph_period_last_month = 'Last Month';
+$s_plugin_MantisGraph_period_this_quarter = 'This Quarter';
+$s_plugin_MantisGraph_period_last_quarter = 'Last Quarter';
+$s_plugin_MantisGraph_period_year_to_date = 'Year to Date';
+$s_plugin_MantisGraph_period_select = 'Arbitrary Dates';
+$s_plugin_MantisGraph_period_last_year = 'Last Year';
+$s_plugin_MantisGraph_graph_page = 'Graph Issue History';
+$s_plugin_MantisGraph_graph_topdev = 'Top Developers by Fixed Issues';
+$s_plugin_MantisGraph_graph_opendev = 'Developers by Open Issues';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Top Reporters by Fixed Issues';

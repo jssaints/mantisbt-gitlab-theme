@@ -1,0 +1,97 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Russian (русский)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Facenapalm
+ * @author Irus
+ * @author Kareyac
+ * @author Kirill
+ * @author Lega4
+ * @author Lockal
+ * @author Nitch
+ * @author Okras
+ * @author Александр Сигачёв
+ * @author Туллук
+ */
+
+$s_plugin_graph_title = 'Система отображения графиков в MantisBT';
+$s_plugin_graph_description = 'Официальный плагин MantisBT для отображения графиков.';
+$s_plugin_MantisGraph_title = 'Графики MantisBT';
+$s_plugin_MantisGraph_config = 'Настройка';
+$s_plugin_MantisGraph_synthesis_link = 'Сумарно';
+$s_plugin_MantisGraph_status_link = 'По состоянию';
+$s_plugin_MantisGraph_priority_link = 'По приоритету';
+$s_plugin_MantisGraph_severity_link = 'По уровню серьезности';
+$s_plugin_MantisGraph_category_link = 'По категориям';
+$s_plugin_MantisGraph_resolution_link = 'По решению';
+$s_plugin_MantisGraph_issue_trends_link = 'Статистика инцидента';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Диаграмма по состоянию';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Диаграмма по приоритету';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Диаграмма по критичности';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Диаграмма по категориям';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Диаграмма по решениям';
+$s_plugin_MantisGraph_graph_developer_title = 'Диаграмма по разработчикам';
+$s_plugin_MantisGraph_graph_reporter_title = 'Диаграмма по инициаторам';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Задачи открытые, отработанные и оставшиеся';
+$s_plugin_MantisGraph_by_status_pct = 'соотношение по состоянию';
+$s_plugin_MantisGraph_by_priority_pct = 'соотношение по приоритету';
+$s_plugin_MantisGraph_by_severity_pct = 'соотношение по серьезности';
+$s_plugin_MantisGraph_by_category_pct = 'соотношение по категориям';
+$s_plugin_MantisGraph_by_resolution_pct = 'соотношение по решению';
+$s_plugin_MantisGraph_by_severity_mix = 'по серьезности и состоянию';
+$s_plugin_MantisGraph_by_priority_mix = 'по приоритету и состоянию';
+$s_plugin_MantisGraph_by_resolution_mix = 'по решению и состоянию';
+$s_plugin_MantisGraph_legend_still_open = 'До сих пор открытые';
+$s_plugin_MantisGraph_legend_resolved = 'Отработанные';
+$s_plugin_MantisGraph_legend_reported = 'Созданные';
+$s_plugin_MantisGraph_period_none = 'Нет';
+$s_plugin_MantisGraph_period_this_week = 'Эта неделя';
+$s_plugin_MantisGraph_period_last_week = 'Прошлая неделя';
+$s_plugin_MantisGraph_period_two_weeks = 'Предыдущие две недели';
+$s_plugin_MantisGraph_period_this_month = 'Текущий месяц';
+$s_plugin_MantisGraph_period_last_month = 'Предыдущий месяц';
+$s_plugin_MantisGraph_period_this_quarter = 'Текущий квартал';
+$s_plugin_MantisGraph_period_last_quarter = 'Предыдущий квартал';
+$s_plugin_MantisGraph_period_year_to_date = 'С начала года';
+$s_plugin_MantisGraph_period_select = 'Произвольные даты';
+$s_plugin_MantisGraph_period_last_year = 'Предыдущий год';
+$s_plugin_MantisGraph_graph_page = 'График истории инцидентов';
+$s_plugin_MantisGraph_graph_topdev = 'Лучшие разработчики по исправленным инцидентам';
+$s_plugin_MantisGraph_graph_opendev = 'Разработчики по открытым инцидентам';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Лучшие докладчики исправленных инцидентов';

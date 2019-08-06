@@ -1,0 +1,90 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Ukrainian (українська)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Andriykopanytsia
+ * @author Piramidion
+ * @author SteveR
+ */
+
+$s_plugin_graph_title = 'Mantis графіки';
+$s_plugin_graph_description = 'Офіційний модуль для графіків.';
+$s_plugin_MantisGraph_title = 'Mantis графіки';
+$s_plugin_MantisGraph_config = 'Налаштування';
+$s_plugin_MantisGraph_synthesis_link = 'Синтез';
+$s_plugin_MantisGraph_status_link = 'За статусом';
+$s_plugin_MantisGraph_priority_link = 'За пріоритетом';
+$s_plugin_MantisGraph_severity_link = 'За серйозністю';
+$s_plugin_MantisGraph_category_link = 'За категорією';
+$s_plugin_MantisGraph_resolution_link = 'За рішенням';
+$s_plugin_MantisGraph_issue_trends_link = 'Тенденції проблем';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Діаграми за статусом';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Діаграми за пріоритетом';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Діаграми за серйозністю';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Діаграми за категорією';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Діаграми за рішенням';
+$s_plugin_MantisGraph_graph_developer_title = 'Діаграми за розробниками';
+$s_plugin_MantisGraph_graph_reporter_title = 'Діаграми за доповідачами';
+$s_plugin_MantisGraph_graph_issues_trend_title = 'Питання відкриті, вирішені й ті, що залишилися';
+$s_plugin_MantisGraph_by_status_pct = 'Статуси у відсотках';
+$s_plugin_MantisGraph_by_priority_pct = 'Пріоритети у відсотках';
+$s_plugin_MantisGraph_by_severity_pct = 'Серйозність у відсотках';
+$s_plugin_MantisGraph_by_category_pct = 'Категорії у відсотках';
+$s_plugin_MantisGraph_by_resolution_pct = 'Резолюції у відсотках';
+$s_plugin_MantisGraph_by_severity_mix = 'Серйозність та статуси';
+$s_plugin_MantisGraph_by_priority_mix = 'Пріоритети і статуси';
+$s_plugin_MantisGraph_by_resolution_mix = 'Резолюції та статуси';
+$s_plugin_MantisGraph_legend_still_open = 'Ще відкриті';
+$s_plugin_MantisGraph_legend_resolved = 'Вирішені';
+$s_plugin_MantisGraph_legend_reported = 'Повідомлені';
+$s_plugin_MantisGraph_period_none = 'Ні';
+$s_plugin_MantisGraph_period_this_week = 'Цього тижня';
+$s_plugin_MantisGraph_period_last_week = 'Останній тиждень';
+$s_plugin_MantisGraph_period_two_weeks = 'Останні два тижні';
+$s_plugin_MantisGraph_period_this_month = 'Цього місяця';
+$s_plugin_MantisGraph_period_last_month = 'Минулого місяця';
+$s_plugin_MantisGraph_period_this_quarter = 'Цього кварталу';
+$s_plugin_MantisGraph_period_last_quarter = 'Минулого кварталу';
+$s_plugin_MantisGraph_period_year_to_date = 'Рік до дати';
+$s_plugin_MantisGraph_period_select = 'Довільні дати';
+$s_plugin_MantisGraph_period_last_year = 'Минулого року';
+$s_plugin_MantisGraph_graph_page = 'Графік історії проблем';
+$s_plugin_MantisGraph_graph_topdev = 'Найкращі розробники за кількістю виправлених проблем';
+$s_plugin_MantisGraph_graph_opendev = 'Розробники за відкритими проблемами';
+$s_plugin_MantisGraph_graph_topreporter_fixed = 'Найкращі доповідачі за виправленими проблемами';

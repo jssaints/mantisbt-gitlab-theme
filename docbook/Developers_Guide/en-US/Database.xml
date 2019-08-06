@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Developers_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="dev.database">
+	<title>Database Schema Management</title>
+
+	<section id="dev.database.erd">
+		<title>The MantisBT schema</title>
+
+		<para>The MantisBT database schema (excluding plugins) is described in
+			the Entity-Relationship diagram (ERD) below. There is also a
+			<ulink url="http://mantisbt.org/docs/erd/">
+				PDF version available for download</ulink>.
+		</para>
+
+		<figure id="erd">
+			<title>MantisBT Entity-Relationship Diagram</title>
+			<ulink url="images/erd.png">
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata fileref="images/erd.png" scalefit="1" width="100%" />
+					</imageobject>
+				</inlinemediaobject>
+			</ulink>
+		</figure>
+	</section>
+
+	<section id="dev.database.schema">
+		<title>Schema Definition</title>
+
+		<para>
+			TODO: Discuss the ADODB datadict formats and the format MantisBT expects for schema definitions.
+		</para>
+	</section>
+
+	<section id="dev.database.install">
+		<title>Installation / Upgrade Process</title>
+
+		<para>
+			TODO: Discuss how MantisBT handles a database installation / upgrade, including the use of the config system and schema definitions.
+		</para>
+	</section>
+</chapter>

@@ -1,0 +1,55 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Macedonian (македонски)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Bjankuloski06
+ */
+
+$s_plugin_format_title = 'MantisBT форматирање';
+$s_plugin_format_description = 'Официјален приклучок за обработка и форматирање на текст .';
+$s_plugin_format_config = 'Конфигурирање';
+$s_plugin_format_process_text = 'Обработка на текст';
+$s_plugin_format_process_text_warning_notice = 'Не исклучувајте доколку не сте уверени дека навистина знаете што правите. Во исклучена состојба, можни се меѓумесни напади (XSS) на мрежното место.';
+$s_plugin_format_process_urls = 'Обработка на URL';
+$s_plugin_format_process_buglinks = 'Внатрешни врски на MantisBT (задачи и нивни белешки)';
+$s_plugin_format_process_buglinks_info = 'Во вашата поставка ознаката <em>Issue</em>  е зададена како „<literal>%s</literal>“, а ознаката <em>Issue Note</em> како „<literal>%s</literal>“';
+$s_plugin_format_process_markdown = 'Обработка со Markdown';
+$s_plugin_format_process_markdown_info = 'Стилизирање со поддршка за Markdown — синтакса за форматирање текст предвидена да може да се претвора во HTML.';
+$s_plugin_format_enabled = 'Вкл.';
+$s_plugin_format_disabled = 'Искл.';

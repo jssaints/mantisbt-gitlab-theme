@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Developers_Guide.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Developers_Guide-Developers_Guide">
+	<title>Developers Guide</title>
+	<subtitle>Reference for developers and community members</subtitle>
+	<productname>MantisBT</productname>
+	<productnumber>2.0</productnumber>
+	<abstract>
+		<para>
+			This book is targeted at MantisBT developers, contributors and
+			plugin authors.
+			It documents the development process
+			and provides reference information regarding the MantisBT core,
+			including the database schema as well as
+			the plugin system including an events reference.
+		</para>
+	</abstract>
+	<corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="./images/mantis_logo.png" format="PNG" />
+			</imageobject>
+		</inlinemediaobject>
+	</corpauthor>
+	<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>

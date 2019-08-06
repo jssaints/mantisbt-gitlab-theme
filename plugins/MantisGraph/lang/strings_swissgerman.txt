@@ -1,0 +1,81 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit http://translatewiki.net   **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Swiss German (Alemannisch)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit http://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Als-Holder
+ */
+
+$s_plugin_graph_title = 'Mantis Graphs';
+$s_plugin_graph_description = 'Offiziäll Diagramm-Plugin.';
+$s_plugin_MantisGraph_title = 'Mantis Graphs';
+$s_plugin_MantisGraph_config = 'Konfigurierig';
+$s_plugin_MantisGraph_synthesis_link = 'Synthese';
+$s_plugin_MantisGraph_status_link = 'Pro Zuestand';
+$s_plugin_MantisGraph_priority_link = 'Pro Priorität';
+$s_plugin_MantisGraph_severity_link = 'Pro Schwirigkeitsgrad';
+$s_plugin_MantisGraph_category_link = 'Pro Kategorii';
+$s_plugin_MantisGraph_resolution_link = 'Pro Uflesig';
+$s_plugin_MantisGraph_graph_imp_status_title = 'Grafikzämmestellig no Status';
+$s_plugin_MantisGraph_graph_imp_priority_title = 'Grafikzämmestellig no Priorität';
+$s_plugin_MantisGraph_graph_imp_severity_title = 'Grafikzämmestellig no Schwärigrad';
+$s_plugin_MantisGraph_graph_imp_category_title = 'Grafikzämmestellig no Kategorii';
+$s_plugin_MantisGraph_graph_imp_resolution_title = 'Grafikzämmestellig no Lesig';
+$s_plugin_MantisGraph_by_status_pct = 'no Status-Prozänt';
+$s_plugin_MantisGraph_by_priority_pct = 'no Prozänt Priorität';
+$s_plugin_MantisGraph_by_severity_pct = 'no Prozänt Schärigrad';
+$s_plugin_MantisGraph_by_category_pct = 'no Prozänt Kategorii';
+$s_plugin_MantisGraph_by_resolution_pct = 'no Prozänt Lesig';
+$s_plugin_MantisGraph_by_severity_mix = 'no Schwäri un Status';
+$s_plugin_MantisGraph_by_priority_mix = 'no Priorität un Status';
+$s_plugin_MantisGraph_by_resolution_mix = 'no Lesig un Status';
+$s_plugin_MantisGraph_legend_still_open = 'No uff';
+$s_plugin_MantisGraph_legend_resolved = 'Erledigt';
+$s_plugin_MantisGraph_legend_reported = 'Gmäldet';
+$s_plugin_MantisGraph_period_none = 'Keini';
+$s_plugin_MantisGraph_period_this_week = 'Die Wuche';
+$s_plugin_MantisGraph_period_last_week = 'Di letscht Wuche';
+$s_plugin_MantisGraph_period_two_weeks = 'Di letschte zwo Wuche';
+$s_plugin_MantisGraph_period_this_month = 'Dää Monet';
+$s_plugin_MantisGraph_period_last_month = 'Dr letscht Monet';
+$s_plugin_MantisGraph_period_this_quarter = 'Des Vierteljohr';
+$s_plugin_MantisGraph_period_last_quarter = 'S letscht Vierteljohr';
+$s_plugin_MantisGraph_period_year_to_date = 'Johr no Datum';
+$s_plugin_MantisGraph_period_select = 'Beliebig Datum';
+$s_plugin_MantisGraph_period_last_year = 'S letscht Johr';
+$s_plugin_MantisGraph_graph_page = 'Grafischi Yytrags-Gschicht';
